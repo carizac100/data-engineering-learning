@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS / Editors
+.DS_Store
+.vscode/
+
+# Spark / Hadoop outputs
+*_SUCCESS
+**/_SUCCESS
+**/*.crc
+**/*.crc.*
+**/paciente_out_csv/
+**/paciente_out_csv/**
+**/data/**/_SUCCESS
+**/data/**/*.crc
+
+# Generated data folders
+**/data/*_out_*/
+**/data/*_out_*/**
+
